@@ -7,7 +7,7 @@ public class Hamburger {
 		System.out.println ("""
 				Type A (Plain) --> Rs 100,
 				Type B (Rounded) --> Rs 120,
-				Type C (Capcicum) --> Rs 135,
+				Type C (Capsicum) --> Rs 135,
 				Type D (Onion) --> Rs 110,
 				Every Extra Topping will charge by 20rs.
 				"""
@@ -38,7 +38,7 @@ public class Hamburger {
 	
 	public static void main (String[] args) {
 		Hamburger hamburger = new Hamburger ('C',2);
-		hamburger.burgerMenu ();
+		burgerMenu();
 		System.out.println (hamburger.getBill ());
 		hamburger.printBill ();
 		
